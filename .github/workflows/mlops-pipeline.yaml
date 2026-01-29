@@ -46,7 +46,7 @@ jobs:
     - name: Push model to S3 directly
       run: |
         aws s3 cp models/churn_model.pkl s3://tsttests/aiml/models2/churn_model.pkl
-        echo "Model pushed to S3 is success"
+        echo "Model pushed to S3 success"
     
     - name: Update inference.yaml with S3 model path
       run: |
