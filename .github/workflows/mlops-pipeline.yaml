@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  AWS_REGION: us-east-1
-  S3_BUCKET: churn-model-bucket-cicd-abhi
+  AWS_REGION: ap-south-1
+  S3_BUCKET: tsttests/aiml
 
 jobs:
   train-and-deploy:
